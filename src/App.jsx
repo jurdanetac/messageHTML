@@ -4,7 +4,7 @@ const App = () => {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
 
-  const baseURL = "/?";
+  const baseURL = "/messageHTML/?";
 
   const label = urlParams.get("label");
   const message = urlParams.get("message");
